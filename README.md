@@ -38,8 +38,7 @@ unpack archive and upload files in app/code/magefactory
                     },
                     {
                         "type": "git",
-                        "url": 
-"git@github.com:magefactory/magento-2-tier-price.git"
+                        "url": "git@github.com:magefactory/magento-2-tier-price.git"
                     }
                 ],
 
