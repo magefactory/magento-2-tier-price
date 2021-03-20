@@ -1,4 +1,4 @@
-# Tier Price for Magento 2
+# TIER PRICE FOR MAGENTO 2
 
 Show a tier price on a product page when a customer changes quantity 
 field.
