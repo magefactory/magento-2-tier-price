@@ -3,7 +3,7 @@
 Show a tier price on a product page when a customer changes quantity 
 field.
 
-## Development
+## DEVELOPMENT
 
 Extension work for simple products and not work for configurable 
 products.
@@ -12,7 +12,7 @@ products.
 
 * Provide correct list of tier prices from a ViewModel.
 
-## Installation
+## INSTALLATION
 
 #### - via ftp/sftp: 
 
@@ -53,7 +53,7 @@ unpack archive and upload files in app/code/magefactory
 
 * bin/magento cache:clean
 
-## Demo
+## DEMO
 
 * you can see demo **here** - 
 [https://magefactory.alexander-naumov.com/affirm-water-bottle.html](https://magefactory.alexander-naumov.com/affirm-water-bottle.html 
@@ -63,14 +63,14 @@ unpack archive and upload files in app/code/magefactory
 
 * See LICENSE for the license details.
 
-## Copyright
+## COPYRIGHT
 
 * Copyright **© magefactory****** 
 (https://magefactory.alexander-naumov.com)
 
 * Author **Alexander Naumov** (https://www.alexander-naumov.com)
 
-## Credits and thanks
+## CREDITS AND THANKS
 
 *  Thanks **Max Pronko****** - https://github.com/mcspronko - for the 
 prototype -  https://github.com/mcspronko/tier-price
