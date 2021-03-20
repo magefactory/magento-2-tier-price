@@ -1,0 +1,22 @@
+{
+    "name": "magefactory/module-tier-price",
+    "description": "Magento 2 tier price module",
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": "Commercial",
+    "authors": [
+      {
+        "name": "Alexander Naumov"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "magefactory\\TierPrice\\": ""
+      }
+    }
+  
+  }
+  

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © magefactory (https://magefactory.alexander-naumov.com)
+ * Author Alexander Naumov (https://www.alexander-naumov.com)
+ * Credits and thanks:  Max Pronko (https://github.com/mcspronko/tier-price)
+ * See LICENSE for the license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="magefactory_TierPrice" />
+</config>

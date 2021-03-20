@@ -1,0 +1,30 @@
+<?php
+/**
+ * Copyright © Labelident GmbH (https://www.labelident.com)
+ * Author Alexander Naumov
+ * See LICENSE for the license details.
+ */
+declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use magefactory\TierPrice\ViewModel\TierPrice;
+
+/** @var Template $block */
+
+/** @var TierPrice $viewModel */
+$viewModel = $block->getData('viewModel');
+?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "tier-price": {
+                        "component": "magefactory_TierPrice/js/tier-price",
+                        "config": <?= /* @noEscape */ $viewModel->getJsonConfig(); ?>
+                    }
+                }
+            }
+        }
+    }
+</script>
