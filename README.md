@@ -10,6 +10,45 @@ Extension work for simple products and not work for configurable products.
 
 * Provide correct list of tier prices from a ViewModel.
 
+## Installation
+
+# via ftp/sftp - 
+
+unpack archive and upload files in app/code/magefactory
+
+* bin/magento setup:upgrade
+
+* bin/magento setup:static-content-deploy -f
+
+* bin/magento cache:flush
+
+* bin/magento cache:clean
+
+# via composer 
+
+* Edit your repositories block, add new reposytory with type "git" . 
+
+"repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:magefactory/magento-2-tier-price.git"
+        }
+    ],
+	
+* run composer require magefactory/module-tier-price
+
+* bin/magento setup:upgrade
+
+* bin/magento setup:static-content-deploy -f
+
+* bin/magento cache:flush
+
+* bin/magento cache:clean
+
 ## Demo
 
 * you can see demo here - https://magefactory.alexander-naumov.com/affirm-water-bottle.html
