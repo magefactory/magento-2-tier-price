@@ -81,15 +81,13 @@ $product = $block->getSaleableItem();
                         $price['price_qty'],
                         $priceAmountBlock,
                         $index,
-                        $block->formatPercent($price['percentage_value'] ?? $tierPriceModel->getSavePercent($price['price']))
+                        $block->formatPercent($tierPriceModel->getSavePercent($price['price']))
                     )
                     : __('Buy %1 for %2 each', $price['price_qty'], $priceAmountBlock);
                     ?>
                 <?php endif; ?>
             </li>
-            <?php // $endPrice = trim(preg_replace('/\s\s+/', ' ', strip_tags($priceAmountBlock)));
-            // $formatPrice = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );
-            $priceJson[] =  array('qty'=> $price['price_qty'], 'price'=> $realPrice)?>
+            <?php $priceJson[] =  array('qty'=> $price['price_qty'], 'price'=> $realPrice)?>
         <?php endforeach; ?>
     </ul>
     <?php

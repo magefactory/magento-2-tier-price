@@ -5,8 +5,24 @@ field.
 
 ## DEVELOPMENT
 
-Extension work for simple products and not work for configurable 
-products.
+* Extension under development - work for simple products and not work for configurable 
+products. 
+
+* Testet with MAGENTO 2.3.6 - 2.4.1. 
+
+* Must work with MAGENTO version 2.3.3 - 2.3.5.
+
+* For MAGENTO Version < 2.3.3  try it: 
+
+find next code on line 84 in view/base/templates/product/price/tier_prices.phtml
+
+    $block->formatPercent($tierPriceModel->getSavePercent($price['price']))
+
+Replace with 
+
+    $tierPriceModel->getSavePercent($price['price'])
+
+* If this extension is not working with your MAGENTO version, please isssue it. 
 
 ## TODO
 
@@ -17,33 +33,6 @@ products.
 #### - via ftp/sftp: 
 
 unpack archive and upload files in app/code/magefactory
-
-* bin/magento setup:upgrade
-
-* bin/magento setup:static-content-deploy -f
-
-* bin/magento cache:flush
-
-* bin/magento cache:clean
-
-#### - via composer:
-
-* Edit your repositories block, add new reposytory with type "git" 
-
-           
-        "repositories": [
-                    {
-                        "type": "composer",
-                        "url": "https://repo.magento.com/"
-                    },
-                    {
-                        "type": "git",
-                        "url": "git@github.com:magefactory/magento-2-tier-price.git"
-                    }
-                ],
-
-    
-* run composer require magefactory/module-tier-price
 
 * bin/magento setup:upgrade
 
