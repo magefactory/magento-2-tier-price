@@ -28,6 +28,8 @@ Replace with
 
 * Provide correct list of tier prices from a ViewModel.
 
+* Added quick tier price selecting with radio buttons.  
+
 ## INSTALLATION
 
 #### - via ftp/sftp: 
