@@ -32,7 +32,7 @@ Replace with
 
 #### - via ftp/sftp: 
 
-unpack archive and upload files in app/code/magefactory
+unpack archive and upload files in app/code/magefactory/TierPrice
 
 * bin/magento setup:upgrade
 
