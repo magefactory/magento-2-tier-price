@@ -56,14 +56,14 @@ unpack archive and upload files in app/code/magefactory/TierPrice
 
 ## COPYRIGHT
 
-* Copyright **© magefactory****** 
+* Copyright **© magefactory** 
 (https://magefactory.alexander-naumov.com)
 
 * Author **Alexander Naumov** (https://www.alexander-naumov.com)
 
 ## CREDITS AND THANKS
 
-*  Thanks **Max Pronko****** - https://github.com/mcspronko - for the 
+*  Thanks **Max Pronko** - https://github.com/mcspronko - for the 
 prototype -  https://github.com/mcspronko/tier-price
 
  
