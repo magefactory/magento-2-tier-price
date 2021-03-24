@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace magefactory\TierPrice\ViewModel;
+namespace Magefactory\TierPrice\ViewModel;
 
 use Magento\Framework\Serialize\SerializerInterface;
 use Magento\Framework\View\Element\Block\ArgumentInterface;

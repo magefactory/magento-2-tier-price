@@ -11,6 +11,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'magefactory_TierPrice',
+    'Magefactory_TierPrice',
     __DIR__
 );

@@ -11,7 +11,7 @@
             <argument name="default" xsi:type="array">
             <item name="prices" xsi:type="array">
                 <item name="tier_price" xsi:type="array">
-                    <item name="render_template" xsi:type="string">magefactory_TierPrice::product/price/tier_prices.phtml</item>
+                    <item name="render_template" xsi:type="string">Magefactory_TierPrice::product/price/tier_prices.phtml</item>
                 </item>
             </item>
             </argument>

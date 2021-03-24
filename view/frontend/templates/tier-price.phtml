@@ -7,7 +7,7 @@
 declare(strict_types=1);
 
 use Magento\Framework\View\Element\Template;
-use magefactory\TierPrice\ViewModel\TierPrice;
+use Magefactory\TierPrice\ViewModel\TierPrice;
 
 /** @var Template $block */
 
@@ -20,7 +20,7 @@ $viewModel = $block->getData('viewModel');
             "Magento_Ui/js/core/app": {
                 "components": {
                     "tier-price": {
-                        "component": "magefactory_TierPrice/js/tier-price",
+                        "component": "Magefactory_TierPrice/js/tier-price",
                         "config": <?= /* @noEscape */ $viewModel->getJsonConfig(); ?>
                     }
                 }

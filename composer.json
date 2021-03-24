@@ -2,7 +2,7 @@
     "name": "magefactory/module-tier-price",
     "description": "Magento 2 tier price module",
     "type": "magento2-module",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "license": "Commercial",
     "authors": [
       {
@@ -14,7 +14,7 @@
         "registration.php"
       ],
       "psr-4": {
-        "magefactory\\TierPrice\\": ""
+        "Magefactory\\TierPrice\\": ""
       }
     }
   

@@ -5,9 +5,9 @@
         <attribute name="class" value="page-product-configurable"/>
         <referenceBlock name="head.components">
             <block name="magefactory_tier_price_template"
-                   template="magefactory_TierPrice::tier-price.phtml">
+                   template="Magefactory_TierPrice::tier-price.phtml">
                 <arguments>
-                    <argument name="viewModel" xsi:type="object">magefactory\TierPrice\ViewModel\TierPrice</argument>
+                    <argument name="viewModel" xsi:type="object">Magefactory\TierPrice\ViewModel\TierPrice</argument>
                 </arguments>
             </block>
         </referenceBlock>
