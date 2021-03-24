@@ -8,7 +8,7 @@ field.
 * Extension under development - work for simple products and not work for configurable 
 products. 
 
-* Testet with MAGENTO 2.3.6 - 2.4.1. 
+* Tested with MAGENTO 2.3.6 - 2.4.1. 
 
 * Must work with MAGENTO version 2.3.3 - 2.3.5.
 
