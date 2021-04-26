@@ -50,6 +50,10 @@ unpack archive and upload files in app/code/magefactory/TierPrice
 [https://magefactory.alexander-naumov.com/affirm-water-bottle.html](https://magefactory.alexander-naumov.com/affirm-water-bottle.html 
 "https://magefactory.alexander-naumov.com/affirm-water-bottle.html")
 
+## RELEASE NOTES
+
+* version 1.14 - added tooltip to show next tier pric levels
+
 ## LICENSE
 
 * See LICENSE for the license details.
