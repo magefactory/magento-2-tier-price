@@ -1,0 +1,69 @@
+#tier-price-qty-tooltip.tooltip {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    background: white;
+    border: 2px #1979c3 solid;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: -1;
+    text-align: center;
+    width: 250px;
+    left: 0%;
+    bottom: 105%;
+    transition: all .3s ease;
+    transition-delay: .2s;
+    transform: translate3d(0%, 0, 0);
+    &:before, &:after {
+        top: 100%;
+        left: 10%;
+        border: solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    &:before {
+        border-top-color: #1979c3;
+        border-width: 11px;
+        margin-left: -11px;
+    }
+    &:after {
+        border-top-color: white;
+        border-width: 8px;
+        margin-left: -8px
+    }
+    &.visible {
+        opacity: 1;
+        z-index: 11;
+        display: block;
+        transform: translate3d(0%, 1.5em, 0);
+    }
+    .tooltip-content {
+
+        font-family: barlow-bold;
+                font-size: 15px;
+                color: #1979c3;
+                margin: 5px;
+    }
+    .tooltip-actions {
+        span[data-choice] {
+            cursor: pointer;
+            font-family: barlow-medium;
+            font-size: 15px;
+            margin: 5px; 
+            &:first-child {
+                font-size: 20px;
+                font-family: barlow-bold;
+                color: green;
+            }
+        }
+    }
+}
+#tier-price-qty-tooltip-template {
+    display:none;
+}
+.product-add-form {
+    position: relative;
+}
