@@ -5,7 +5,7 @@
     background: white;
     border: 2px #1979c3 solid;
     border-radius: 3px;
-    padding: 5px;
+    padding: 7px;
     z-index: -1;
     text-align: center;
     width: 250px;
@@ -41,21 +41,19 @@
         transform: translate3d(0%, 1.5em, 0);
     }
     .tooltip-content {
-
-        font-family: barlow-bold;
-                font-size: 15px;
-                color: #1979c3;
-                margin: 5px;
+	font-weight: 500;
+        font-size: 15px;
+	color: #1979c3;
+	margin: 5px;
     }
     .tooltip-actions {
         span[data-choice] {
             cursor: pointer;
-            font-family: barlow-medium;
+            font-weight: 700;
             font-size: 15px;
             margin: 5px; 
             &:first-child {
                 font-size: 20px;
-                font-family: barlow-bold;
                 color: green;
             }
         }

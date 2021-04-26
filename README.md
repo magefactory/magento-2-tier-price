@@ -52,7 +52,7 @@ unpack archive and upload files in app/code/magefactory/TierPrice
 
 ## RELEASE NOTES
 
-* version 1.14 - added tooltip to show next tier pric levels
+* version 1.14 - added tooltip to show next tier price levels
 
 ## LICENSE
 
